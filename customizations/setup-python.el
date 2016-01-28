@@ -6,7 +6,7 @@
 
 ;; (setq elpy-rpc-python-command "python3")
 
-(elpy-use-ipython)
+;;(elpy-use-ipython)
 
 (setenv "WORKON_HOME" (concat (getenv "HOME") "/pythonenvs/"))
  
