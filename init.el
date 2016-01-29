@@ -17,11 +17,6 @@
 ;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
 
-;; Set proxy
-(setq url-proxy-services '(("no_proxy" . "gm\\.com")
-                            ("http" . "naproxy.gm.com")))
-
-
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
 ;; This also sets the load path.
